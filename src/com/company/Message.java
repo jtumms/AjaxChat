@@ -11,7 +11,7 @@ public class Message {
     String text;
     Timestamp time;
 
-    public Message() {
+    public Message(int id, String author, String text, java.sql.Timestamp time) {
     }
 
     public Message(int id, String author, String text, Timestamp time) {
